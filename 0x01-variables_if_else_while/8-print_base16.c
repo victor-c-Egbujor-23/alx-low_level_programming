@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers in base 16 in lowercase 
- * followed by a new line
+ * main - prints numbers in base16 in lowercase
  * Return: Always 0
  */
 int main(void)
 {
 	int num;
 	char la;
+
 	for (num = 0; num < 10; num++)
 		putchar((num % 10) + '0');
 
