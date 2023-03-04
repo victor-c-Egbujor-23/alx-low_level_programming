@@ -8,7 +8,7 @@
  *
  * Return: dest
  */
-char *_strcat(char *dest, *src, int n)
+char *_strncat(char *dest, *src, int n)
 {
 	int i;
 	int j;
@@ -19,7 +19,7 @@ char *_strcat(char *dest, *src, int n)
 		i++;
 	}
 	j = 0;
-	while (j < n && src(j) != '\0')
+	while (j < n && src[j] != '\0')
 	{
 	dest[i] = src[j];
 	i++;
